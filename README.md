@@ -14,7 +14,7 @@ opened by a spreadsheet/DB.
 ![Touch-up interface](ui.png)
 
 As input, the app can either take a ID (e.g., a Museum accession
-number) and use a lookup to table from IDs to Image URLs, or a
+number) and use a lookup table from IDs to Image URLs, or a
 directly uploaded image.  The former permits the app to be run on a
 local machine. Using the latter requires a public webserver with
 server write-permission to a directory in which the uploaded images

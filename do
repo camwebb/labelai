@@ -11,6 +11,7 @@
 BEGIN{
 
   init()
+  pw()
   
   header("Herbarium sheet OCR")
 
@@ -48,7 +49,6 @@ BEGIN{
   if (!f["lang"])
     fail("No Language specified")
 
-  pw()
   "curl -s -X POST "                                                    \
     "-H 'Authorization: Bearer " APITOKEN "' "                          \
     "-H 'Content-Type: application/json' "                              \
