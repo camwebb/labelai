@@ -1,0 +1,21 @@
+Options +ExecCGI -Indexes
+
+<Files "do">
+  SetHandler cgi-script
+</Files>
+
+DirectoryIndex do
+
+<FilesMatch "^pw\.awk$">
+  Deny from all
+</FilesMatch>
+
+<FilesMatch "^\.pw$">
+  Deny from all
+</FilesMatch>
+
+AuthType Basic
+AuthName "Password Protected"
+AuthUserFile /path/to/.pw
+Require valid-user
+
