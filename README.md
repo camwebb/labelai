@@ -2,5 +2,5 @@
 
 _Simple web app using AI to OCR and parse herbarium specimen labels_
 
-**Moved to [Sourcehut](https://git.sr.ht/~camwebb/labelai)
+**Moved to [Sourcehut](https://git.sr.ht/~camwebb/labelai)**
 
